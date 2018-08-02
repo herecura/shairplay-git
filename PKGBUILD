@@ -4,7 +4,7 @@
 
 pkgname=shairplay-git
 _gitname=shairplay
-pkgver=20180721.765148f
+pkgver=20180801.8a54aee
 pkgrel=1
 pkgdesc='Apple airplay and raop protocol server'
 arch=('x86_64')
