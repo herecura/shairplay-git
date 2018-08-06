@@ -4,14 +4,13 @@
 
 pkgname=shairplay-git
 _gitname=shairplay
-pkgver=20180801.8a54aee
+pkgver=20180806.a761c22
 pkgrel=1
 pkgdesc='Apple airplay and raop protocol server'
 arch=('x86_64')
 url='https://github.com/juhovh/shairplay'
 license=('custom')
-depends=('libao')
-optdepends=('avahi: to run the server')
+depends=('libao' 'avahi')
 makedepends=('git')
 source=("$_gitname::git://github.com/juhovh/shairplay.git"
 	'shairplay.service')
